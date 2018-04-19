@@ -1,6 +1,6 @@
 import { StackNavigator } from "react-navigation";
 import LoginScreen from "../screens/LoginScreen";
 
-const AuthStack = StackNavigator({
+export default (AuthStack = StackNavigator({
   Login: LoginScreen
-});
+}));
